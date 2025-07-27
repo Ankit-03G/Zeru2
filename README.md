@@ -69,7 +69,7 @@ Features are engineered to capture a holistic view of risk in the Compound V2 co
 ## Risk Scoring Method
 
 - **Weighted Additive Model with Penalties:**  
-  - Start from a base score (e.g., 300).
+  - Start from a base score (I have used base score of 300).
   - Add points for positive indicators (activity, diversity, financial responsibility, stability).
   - Subtract points for negative indicators (liquidations, high leverage, inactivity, bot-like behavior, poor repayment).
   - Critical risk events (liquidations, excessive leverage) have strong penalties.
