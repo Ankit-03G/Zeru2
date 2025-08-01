@@ -21,7 +21,7 @@ The pipeline consists of the following stages:
    Builds a comprehensive set of features for each wallet, capturing activity levels, financial behavior, risk-relevant contract interactions, and unusual patterns.
 
 4. **Risk Scoring**:  
-   Applies a custom, weighted additive scoring model (0-1000 scale) to each wallet, rewarding positive behaviors (activity, diversity, financial maturity) and penalizing negative ones (liquidations, high leverage, inactivity, bot-like patterns).
+   Applies a  custom, weighted additive scoring model (0-1000 scale) to each wallet, rewarding positive behaviors (activity, diversity, financial maturity) and penalizing negative ones (liquidations, high leverage, inactivity, bot-like patterns).
 
 5. **Analysis & Export**:  
    Summarizes the risk distribution, identifies high/low risk groups, and exports results and visualizations for further assessment.
